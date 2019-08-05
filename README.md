@@ -26,17 +26,14 @@ usage: watermark.py [-h] [-f FILE] [-m MARK] [-o OUT] [-c COLOR] [-s SPACE]
                     [-a ANGLE] [--size SIZE] [--opacity OPACITY]
 
 optional arguments:
-  -h, --help            show this help message and exit
-  -f FILE, --file FILE  image file path or directory
-  -m MARK, --mark MARK  watermark content
-  -o OUT, --out OUT     image output directory, default is ./output
-  -c COLOR, --color COLOR
-                        font color like '#000000', default is #F4F4F4
-  -s SPACE, --space SPACE
-                        space between watermarks, default is 60
-  -a ANGLE, --angle ANGLE
-                        rotate angle of watermarks, default is 30
-  --size SIZE           font size of text, default is 25
-  --opacity OPACITY     opacity of watermarks, default is 0.4
+  -h, --help               show this help message and exit
+  -f FILE, --file FILE     image file path or directory
+  -m MARK, --mark MARK     watermark content
+  -o OUT, --out OUT        image output directory, default is ./output
+  -c COLOR, --color COLOR  font color like '#000000', default is #F4F4F4
+  -s SPACE, --space SPACE  space between watermarks, default is 60
+  -a ANGLE, --angle ANGLE  rotate angle of watermarks, default is 30
+  --size SIZE              font size of text, default is 25
+  --opacity OPACITY        opacity of watermarks, default is 0.4
 
 ```
