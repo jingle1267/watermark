@@ -3,7 +3,7 @@
 
 ### 效果图
 
-![](./output/test.png)
+![](https://raw.githubusercontent.com/jingle1267/watermark/master/output/weixiaobao.jpg)
 
 ### 安装配置
 
@@ -19,7 +19,7 @@
 
 具体使用参数介绍：
 
-运行'python3 watermark.py -h'
+运行 `python3 watermark.py -h`
 
 ```
 usage: watermark.py [-h] [-f FILE] [-m MARK] [-o OUT] [-c COLOR] [-s SPACE]
