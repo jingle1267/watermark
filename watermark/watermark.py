@@ -117,6 +117,7 @@ def crop_image(im):
 
 def main():
 	parser = argparse.ArgumentParser()
+	parser.description = '给图片添加文字水印，支持设置文字内容、大小、透明度、颜色、旋转等'
 	parser.add_argument("-f", "--file", type=str, help="image file path or directory")
 	parser.add_argument("-m", "--mark", type=str, help="watermark content")
 	parser.add_argument("-o", "--out", default="./output", help="image output directory, default is ./output")

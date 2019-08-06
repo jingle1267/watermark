@@ -25,6 +25,8 @@
 usage: watermark.py [-h] [-f FILE] [-m MARK] [-o OUT] [-c COLOR] [-s SPACE]
                     [-a ANGLE] [--size SIZE] [--opacity OPACITY]
 
+给图片添加文字水印，支持设置文字内容、大小、透明度、颜色、旋转等
+
 optional arguments:
   -h, --help               show this help message and exit
   -f FILE, --file FILE     image file path or directory
@@ -35,5 +37,6 @@ optional arguments:
   -a ANGLE, --angle ANGLE  rotate angle of watermarks, default is 30
   --size SIZE              font size of text, default is 25
   --opacity OPACITY        opacity of watermarks, default is 0.4
+
 
 ```

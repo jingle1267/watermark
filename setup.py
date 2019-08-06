@@ -6,11 +6,13 @@
 @desc：  : 
 """
 
-from setuptools import setup, find_packages
+from distutils.core import setup
+
+from setuptools import find_packages
 
 setup(
 	name='watermark2',
-	version='1.0.0',
+	version='1.0.2',
 	description=(
 		'给图片添加文字水印，支持设置文字内容、大小、透明度、颜色、旋转等'
 	),
@@ -19,7 +21,7 @@ setup(
 	author_email='jingle1267@163.com',
 	maintainer='jingle1267',
 	maintainer_email='jingle1267@163.com',
-	license='MIT License',
+	license='MIT',
 	packages=find_packages(),
 	platforms=["all"],
 	url='https://github.com/jingle1267/watermark.git',
@@ -28,5 +30,5 @@ setup(
 		"License :: OSI Approved :: MIT License",
 		"Operating System :: OS Independent",
 	],
-	keywords='watermark',
+	keywords='watermark'
 )
