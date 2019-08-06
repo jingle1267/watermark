@@ -15,7 +15,7 @@
 
 例子：
 
-` python3 watermark.py -m '测试水印ABC123' -f weixiaobao.jpg`
+` python3 watermark/watermark.py -m '测试水印' -f weixiaobao.jpg`
 
 具体使用参数介绍：
 

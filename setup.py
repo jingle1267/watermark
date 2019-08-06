@@ -12,7 +12,7 @@ from setuptools import find_packages
 
 setup(
 	name='watermark2',
-	version='1.0.2',
+	version='1.0.3',
 	description=(
 		'给图片添加文字水印，支持设置文字内容、大小、透明度、颜色、旋转等'
 	),
